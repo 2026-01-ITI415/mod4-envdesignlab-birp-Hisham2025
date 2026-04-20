@@ -7,7 +7,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Neo_Wall_4m_snaps001
-  serializedVersion: 9
+  serializedVersion: 12
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -37,6 +37,9 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -44,7 +47,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 000001000200000002000300040005000600040006000700080009000a000b000c000d000e000f0010000e001000110012001300140012001400150016001700180019001600180003001a001b00030002001a001c001d0015001c00150014001e001f0020001e002000210022002300240023002500240026000700060026000600270028002900110028001100100025002a0024002a002b0024002a0017002b00170016002b002c001a0002002c0002002d0026002c002d0026002d0007002e002f0030002f00310030003200330034003300350034003600370038003600390037003a003b003c003d003a003c00330032003e0032003f003e003c003b0040003b00410040004200430044004300450044004600470048004600480049004a004b004c004b004d004c004d004b004e004b004f004e005000510052005100530052002f002e0054002e005500540046005600570046005700470056003700390056003900570058003b0059003b003a0059004d0058004c00580059004c005a005b005c005a005d005b005e005f0060005e00600061006200630064006200650063006600670068006600680069006a006b006c006d006a006c006e006f0070006f00710070007200730074007500720074007600770078007700790078007a007b007c007a007d007b007d007e007b007d007f007e00800081008200830080008200840085008100800084008100
   m_VertexData:
-    serializedVersion: 2
+    serializedVersion: 3
     m_VertexCount: 134
     m_Channels:
     - stream: 0
@@ -161,12 +164,32 @@ Mesh:
     m_Center: {x: 0, y: 2, z: 1.500001}
     m_Extent: {x: 0.15625001, y: 2, z: 1.5000005}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimized: 0
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: -1
   m_StreamData:
+    serializedVersion: 2
     offset: 0
     size: 0
     path: 
+  m_MeshLodInfo:
+    serializedVersion: 2
+    m_LodSelectionCurve:
+      serializedVersion: 1
+      m_LodSlope: 0
+      m_LodBias: 0
+    m_NumLevels: 1
+    m_SubMeshes:
+    - serializedVersion: 2
+      m_Levels:
+      - serializedVersion: 1
+        m_IndexStart: 0
+        m_IndexCount: 0
+    - serializedVersion: 2
+      m_Levels:
+      - serializedVersion: 1
+        m_IndexStart: 0
+        m_IndexCount: 0

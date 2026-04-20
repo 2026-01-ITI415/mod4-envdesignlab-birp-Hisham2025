@@ -7,7 +7,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Neo_Floor_Ceiling_03_snaps001
-  serializedVersion: 9
+  serializedVersion: 12
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -37,6 +37,9 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -44,7 +47,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 000001000200030000000200040005000600040007000500080009000a000b0008000a000900000003000a00090003000c000d000e000c000f000d0006000f000c00060005000f0010001100120013001000120014001500160014001700150011001800190012001100190018001a001b00190018001b001c00170014001c001d0017001e001d001c001e001f001d00200021002200200023002100240025002600270024002600280029002a0028002b00290022002b002800220021002b002c002d002e002f002c002e002d00240027002e002d0027003000310032003000330031003400350036003700340036003800330030003800390033003a00390038003a003b00390035003c003d00360035003d003c003e003f003d003c003f00400041004200430040004200410044004500420041004500440046004700450044004700480049004a004b0048004a004b004a00410040004b00410049004c004d004a0049004d004c004e004f004d004c004f004d004f00460044004d004600500051005200500053005100540053005000540055005300560055005400560057005500580059005a0058005b00590053005a005100530058005a005c005b0058005c005d005b005e005d005c005e005f005d0057005c00550057005e005c00600061006200630060006200640065006600640067006500
   m_VertexData:
-    serializedVersion: 2
+    serializedVersion: 3
     m_VertexCount: 104
     m_Channels:
     - stream: 0
@@ -161,12 +164,32 @@ Mesh:
     m_Center: {x: 1.5, y: 0.125, z: 1.5}
     m_Extent: {x: 1.5, y: 0.125, z: 1.5}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimized: 0
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: -1
   m_StreamData:
+    serializedVersion: 2
     offset: 0
     size: 0
     path: 
+  m_MeshLodInfo:
+    serializedVersion: 2
+    m_LodSelectionCurve:
+      serializedVersion: 1
+      m_LodSlope: 0
+      m_LodBias: 0
+    m_NumLevels: 1
+    m_SubMeshes:
+    - serializedVersion: 2
+      m_Levels:
+      - serializedVersion: 1
+        m_IndexStart: 0
+        m_IndexCount: 0
+    - serializedVersion: 2
+      m_Levels:
+      - serializedVersion: 1
+        m_IndexStart: 0
+        m_IndexCount: 0
